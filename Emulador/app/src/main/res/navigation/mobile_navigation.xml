@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/fragment_Inicio">
+
+    <fragment
+        android:id="@+id/perfil_Fragment"
+        android:name="bryan.cornejo.emulador20230223bryan.Perfil_Fragment"
+        android:label="fragment_perfil_"
+        tools:layout="@layout/fragment_perfil_" />
+    <fragment
+        android:id="@+id/fragmrnt_notificaciones"
+        android:name="bryan.cornejo.emulador20230223bryan.notificaciones"
+        android:label="fragment_notificaciones"
+        tools:layout="@layout/fragment_notificaciones" />
+    <fragment
+        android:id="@+id/fragment_Inicio"
+        android:name="bryan.cornejo.emulador20230223bryan.Inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" />
+    <fragment
+        android:id="@+id/fragment_contactanos"
+        android:name="bryan.cornejo.emulador20230223bryan.Contactanos"
+        android:label="fragment_contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+</navigation>
